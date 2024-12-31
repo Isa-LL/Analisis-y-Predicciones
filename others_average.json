@@ -1,0 +1,15 @@
+{
+    "excluded_titles": [
+        "Data Engineer",
+        "Data Scientist",
+        "Data Analyst",
+        "Machine Learning Engineer"
+    ],
+    "average_salaries_for_others": {
+        "2020": "122,755.84",
+        "2021": "117,781.83",
+        "2022": "138,066.58",
+        "2023": "153,595.37",
+        "2024": "162,674.91"
+    }
+}

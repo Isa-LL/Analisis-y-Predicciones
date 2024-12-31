@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniProyecto SIC</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <main class="main">
+
+      <h1>Análisis de Sueldos</h1>
+
+      <h1>Análisis de sueldos</h1>
+
+      <h1>Analisis de sueldos 2025</h1>
+
+      <h1>Análisis de sueldos 2025</h1>
+
+      <h1>Análisis de sueldos</h1>
+
+      <h1>Análisis de Sueldos</h1>
+
+      <div class="flex">
+        <div class="chart-main chart-box">
+          <select id="chart-main-option">
+            <option value="DE">Data Engineer</option>
+            <option value="DS">Data Scientist</option>
+            <option value="DA">Data Analyst</option>
+            <option value="MLE">Machine Learning Engineer</option>
+          </select>
+          <figure class="chart-info">
+            <h2>Salario Promedio Anual</h2>
+            <canvas id="chart-main"></canvas>
+          </figure>
+        </div>
+        <div class="chart-side chart-box">
+          <figure class="chart-side-box chart-side-box-1">
+            <span>6599 Sujetos</span>
+            <h3>Ocupaciones</h3>
+            <canvas id="chart-side-1"></canvas>
+          </figure>
+          <figure class="chart-side-box chart-side-box-2">
+            <h3>Residencia</h3>
+            <canvas id="chart-side-2"></canvas>
+          </figure>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
